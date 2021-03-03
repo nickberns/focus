@@ -8,5 +8,5 @@ x.appendChild(t);                                           // Append the text t
 //document.body.appendChild(x);
 //t.style.cssText('color:red;');
 
-x.setAttribute("style","text-align:center; color:red; background-color:black;");
+x.setAttribute("style","text-align:center; color:red; background-color:black; position: -webkit-sticky; position: sticky; top: 0;");
 document.body.prepend(x);
